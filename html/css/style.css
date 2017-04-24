@@ -1,33 +1,46 @@
 body {
-	margin: 0 auto;
+	margin: 0;
+	min-height : 700px;
+	max-width : 1280px;
+}
+
+.clear{
+	clear : both;
+	margin : 0;
+}
+
+.clear:after{
+	content : "";
+	display : block;
+	clear : both;
 }
 
 .container {
-	width: 1280px;
-	margin: 0 auto;
+	max-width: 1280px;
+	max-height : 1653px;
+	position : relative;
 }
 
 header {
-  width: 1280px;
-  height: 145px;
-  background: black;
+	width: 100%;
+	height: 135px;
+	background: black;
 }
 
 .title_area {
 	display: inline-block;
 	float: left;
-  margin-top: 25px;
-  margin-left: 80px;
+	margin : 2% 5% 0 5%;
 }
 
 .nav_top {
-  display: inline-block;
-  float: right;
-  margin-right: 80px;
+  	display: inline-block;
+  	float: right;
+  	margin-right: 80px;
 }
 
 .nav_top li {
-  list-style: none;
+  	list-style: none;
 	float: right;
 	margin-left: 50px;
 	padding-top: 73px;
@@ -37,37 +50,44 @@ header {
 .nav_top a {
 	display: block;
 	color: white;
-	font-family: sans-serif;
-  font-size: 24px;
+	font-family: FootLight MT Light;
+  	font-size: 24px;
 	text-decoration: none;
 }
 
 #main {
-  background: white;
-  width: 1280px;
-  height: 1486px;
+  	background: white;
 }
 
 .banner_img {
-  margin-left: 80px;
-  padding-top: 39px;
+	width : 100%;
+	display : inline_block;
+}
+
+.banner{
+	padding : 3% 5% 0 5%;
+	width : 90%;
 }
 
 .nav_btn_event {
-	width: 1280px;
-  margin-left: 70px;
-  display: inline-block;
-  float: left;
+	width: 100%;
+  	margin : 0 5% 0 5%;
+  	display: inline-block;
+  	float: left;
+}
+
+.nav_btn{
+	width : 80%;
 }
 
 .nav_btn_event li {
-  list-style: none;
+  	list-style: none;
 	float: left;
-  padding: 55px 18px 10px 18px;
+	
 }
 
 .p_event {
-	margin-left: 80px;
+	/*margin-left: 80px;*/
 	width: 1280px;
 	display: inline-block;
 }
@@ -81,7 +101,7 @@ header {
 }
 
 .character_img {
-	margin-left: 138px;
+	/*margin-left: 138px;*/
 	width: 1280px;
 	display: inline-block;
 }
@@ -110,29 +130,29 @@ header {
 
 
 #footer {
-  width: 1280px;
+  	/*width: 100%;
 	height: 69px;
 	margin: 0 auto;
-	background-color: #c8e5e9;
+	background-color: #c8e5e9;*/
 }
 
 .footer_p p{
-	margin: 0px;
+	/*margin: 0px;
 	display: inline-block;
 	float: left;
 	color: gray;
 	margin-top: 28px;
-	margin-left: 147px;
+	margin-left: 147px;*/
 }
 
 .footer_nav_btn {
-  margin-right: 145px;
+  /*margin-right: 145px;
   display: inline-block;
-  float: right;
+  float: right;*/
 }
 
 .footer_nav_btn li {
-  list-style: none;
+  /*list-style: none;
 	float: right;
-  padding: 14px 5px 9px 5px;
+  padding: 14px 5px 9px 5px;*/
 }
