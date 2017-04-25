@@ -1,0 +1,193 @@
+﻿body{
+	max-width: 1280px;
+	min-height: 800px;
+	margin: 0;
+	
+}
+
+.container{
+	width: 1280px;
+	min-height: 800px;
+	margin: 0;
+	position: relative;
+	/*background-image: url("../img/QA_background.jpg");*/
+}
+
+.clear{
+	clear : both;
+	margin : 0;
+}
+
+.clear:after{
+	content : "";
+	display : block;
+	clear : both;
+}
+
+header {
+	width: 100%;
+	height: 135px;
+	background: black;
+}
+
+.title_area {
+	display: inline-block;
+	float: left;
+	margin : 2% 0 0 5%;
+	width : 30%;
+}
+
+.nav_top {
+  	display: inline-block;
+  	width : 60%;
+}
+
+.nav_top li {
+  	list-style: none;
+	float: right;
+	margin : 12% 0 0 8%;
+}
+
+.nav_top a {
+	display: block;
+	color: white;
+	font-family: FootLight MT Light;
+  	font-size: 24px;
+	text-decoration: none;
+}
+
+.nav_top a:hover {
+  	color : yellow;
+}
+
+.page{
+	margin: 4% 0 2% 0;
+	height:100px;
+	font-family: FootLight MT Light;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*.page p{
+}*/
+
+.questionOne{
+	margin: 0 0 0 5%;
+}
+
+.questionOne p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+	line-height:16px;
+}
+
+.answerOne{
+	display: none;
+	margin: 0 0 2% 5%;
+}
+
+.answerOne p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+}
+
+.questionTwo{
+	margin: 0 0 0 5%;
+}
+
+.questionTwo p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+	line-height:16px;
+}
+
+.answerTwo{
+	display: none;
+	margin: 0 0 2% 5%;
+}
+
+.answerTwo p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+}
+
+.questionThree{
+	margin: 0 0 0 5%;
+}
+
+.questionThree p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+	line-height:16px;
+}
+
+.answerThree{
+	display: none;
+	margin: 0 0 2% 5%;
+}
+
+.answerThree p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+}
+
+.questionFour{
+	margin: 0 0 0 5%;
+}
+
+.questionFour p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+	line-height:16px;
+}
+
+.answerFour{
+	display: none;
+	margin: 0 0 2% 5%;
+}
+
+.answerFour p{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	text-align: left;
+}
+
+footer {
+  	width: 100%;
+  	height : 80px;
+	margin: 0 0 0 0;
+	background-color: #E8E8E8;
+}
+
+.footer_p p{
+	display: inline-block;
+	color: #838db0;
+	font-family: FootLight MT Light;
+  	font-size: 16px;
+  	line-height : 0px;
+  	padding : 2% 0 1% 8%;
+}
+
+.footer_btn {
+  	display: inline-block;
+  	float : right;
+  	padding : 2% 6% 1% 0;
+  	width : 18%;
+}
+
+.footer_icon{
+	margin : 0 0 0 10%;
+	width : 16%;
+}
+
+.footer_icon:hover{
+	opacity : 0.7;
+}
