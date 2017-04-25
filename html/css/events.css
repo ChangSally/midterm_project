@@ -60,7 +60,6 @@ header {
 
 #main {
   	background: white;
-  	border : 1px solid red;
 }
 
 .banner_img {
@@ -140,16 +139,16 @@ a{
 	float : right;
 }
 
-.concert{
+.theater{
 	margin : 3% 5% 0 5%;
 }
 
-.concert_img{
+.theater_img{
 	width : 47%;
 	display : inline-block;
 }
 
-.concert_info{
+.theater_info{
 	width : 47%;
 	margin : 1% 6% 0 0;
 	display : inline-block;
@@ -157,7 +156,7 @@ a{
 	line-height : 22px;
 	float : left;
 }
-.concert_btn{
+.theater_btn{
 	display : inline-block;
 	padding : 6px 12px;
 	margin : 0 0 0 40%;
@@ -173,17 +172,42 @@ a{
 	border-color : #ccc;
 }
 
-.concert_btn:focus{
+.theater_btn:focus{
 	background-color : #e6e6e6;
 	border-color : #8c8c8c;
 }
-.concert_btn:hover{
+.theater_btn:hover{
 	background-color : #e6e6e6;
 	border-color : #adadad;
 }
-.concert_btn:active{
+.theater_btn:active{
 	background-color : #e6e6e6;
 	border-color : #adadad;
+}
+
+.sticker{
+	margin : 3% 5% 0 5%;
+}
+
+.sticker_frame{
+	display : inline-block;
+	width : 32%;
+	margin-left : 1%;
+	text-align : center;
+}
+
+.sticker_frame a{
+	font-size : 26px;
+	font-family : FootLight MT Light;
+}
+
+.sticker_img{
+	width : 100%;
+	display : inline-block;
+}
+
+.sticker_img:hover{
+	opacity : 0.7;
 }
 
 p a{
