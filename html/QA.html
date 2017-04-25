@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DisneyAboutUs</title>
+		<link rel="stylesheet" href="css/QA.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+		var clicked=true;
+		$(document).ready(function(){
+			$(".questionOne").click(function(){
+				if(clicked){
+					clicked=false;
+					$(".answerOne").slideDown();
+				}
+				else{
+					clicked=true;
+					$(".answerOne").slideUp();
+				}
+			});
+		});
+	</script>
+<script>
+		var click=true;
+		$(document).ready(function(){
+			$(".questionTwo").click(function(){
+				if(click){
+					click=false;
+					$(".answerTwo").slideDown();
+				}
+				else{
+					click=true;
+					$(".answerTwo").slideUp();
+				}
+			});
+		});
+	</script>
+<script>
+		var pressed=true;
+		$(document).ready(function(){
+			$(".questionThree").click(function(){
+				if(pressed){
+					pressed=false;
+					$(".answerThree").slideDown();
+				}
+				else{
+					pressed=true;
+					$(".answerThree").slideUp();
+				}
+			});
+		});
+	</script>
+<script>
+		var press=true;
+		$(document).ready(function(){
+			$(".questionFour").click(function(){
+				if(press){
+					press=false;
+					$(".answerFour").slideDown();
+				}
+				else{
+					press=true;
+					$(".answerFour").slideUp();
+				}
+			});
+		});
+	</script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+			<div class="title_area"><a href="#"><img src="img\Home\logo.png" alt="logo"></a></div>
+        		<nav class="nav_top">
+        			<ul class="clear">
+          			<li><a href="#">Characters</a></li>
+          			<li><a href="#">News</a></li>
+          			<li><a href="#">Products</a></li>
+          			<li><a href="#">Events</a></li>
+          			<li><a href="#">About Us</a></li>
+          		</ul>
+        		</nav>
+		</header>
+		<div class="page">
+			<p >Q&A</p>
+		</div>
+			<div class="questionOne">
+				<p>1. 米奇和米妮 為何不結婚？</p>
+			</div>
+			<div class="answerOne">
+				<p>因為他們是永恆的戀人！換句話說，不結婚，只戀愛，永保愛情甜蜜蜜，絕對沒有「賞味期限」。 </p>
+			</div>
+			
+			<div class="questionTwo">
+				<p>2. 迪士尼樂園的三眼怪麻糬的販售地點？</p>
+			</div>
+			<div class="answerTwo">
+				<p>明日樂園、美國海濱，TOY STORY MANIA門口攤販 </p>
+			</div>
+			
+			<div class="questionThree">
+				<p>3. 如果我不能於門票有效當日使用門票，我可否選擇退款或退換？</p>
+			</div>
+			<div class="answerThree">
+				<p>迪士尼樂園門票均不可退款、轉讓，一經修改立即作廢。我們將不會為未使用的門票更改入場日子或退款 </p>
+			</div>
+			
+			<div class="questionFour">
+				<p>4. 甚麼是「迪士尼處處拍」服務?</p>
+			</div>
+			<div class="answerFour">
+				<p>「迪士尼處處拍」為遊覽迪士尼度假區的賓客拍下精彩瞬間，並供賓客自行選購照片，為奇妙旅程留下美滿的回憶。拍攝服務不會收取任何費用。攝影師會給你一張「迪士尼處處拍」，讓你之後在其他「迪士尼處處拍」服務點，只需使用同一張就可以記錄所有照片。 </p>
+			</div>
+			<img src="img/QA/QA_back.jpg" alt="img">
+		</div>
+	<footer>
+        <div class="footer_p">
+          <p>Copyrights 2017 Disnet CSIE NTUT / Design by CSIE</p>
+          <div class="footer_btn">
+          	<a href="#"><img class="footer_icon" src="img\Home\Q&A.png" alt="footer_QandA"></a>
+          	<a href="https://www.google.com/gmail/"><img class="footer_icon" src="img\Home\email.png" alt="footer_email"></a>
+          	<a href="https://www.youtube.com/"><img class="footer_icon" src="img\Home\yt.png" alt="footer_youtube"></a>
+        	  </div>
+        </div>
+    </footer>
+	</body>
+</html>
