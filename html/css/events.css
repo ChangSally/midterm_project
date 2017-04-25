@@ -157,30 +157,33 @@ a{
 	line-height : 22px;
 	float : left;
 }
+.concert_btn{
+	display : inline-block;
+	padding : 6px 12px;
+	margin : 0 0 0 40%;
+	font-size : 14px;
+	font-weight : 400;
+	line-height : 1.4;
+	text-align : center;
+	cursor : pointer;
+	border : 1px solid transparent;
+	border-radius : 4px；
+	color : #333;
+	background-color : #fff;
+	border-color : #ccc;
+}
 
-.btn-default{
-	color:#333;
-	background-color:#fff;
-	border-color:#ccc;
+.concert_btn:focus{
+	background-color : #e6e6e6;
+	border-color : #8c8c8c;
 }
-.btn-default:focus{
-	color:#333;
-	background-color:#e6e6e6;
-	border-color:#8c8c8c
+.concert_btn:hover{
+	background-color : #e6e6e6;
+	border-color : #adadad;
 }
-.btn-default:hover{
-	color:#333;
-	background-color:#e6e6e6;
-	border-color:#adadad
-}
-.btn-default.active,.btn-default:active,{
-	color:#333;
-	background-color:#e6e6e6;
-	border-color:#adadad
-}
-.btn-default:hover{
-	background-color:#fff;
-	border-color:#ccc;
+.concert_btn:active{
+	background-color : #e6e6e6;
+	border-color : #adadad;
 }
 
 p a{
