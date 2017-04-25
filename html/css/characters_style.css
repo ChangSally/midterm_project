@@ -32,18 +32,18 @@ header {
 	display: inline-block;
 	float: left;
 	margin : 2% 0 0 5%;
-	width : 30%;
+	width : 20%;
 }
 
 .nav_top {
   	display: inline-block;
-  	width : 60%;
+  	width : 70%;
 }
 
 .nav_top li {
   list-style: none;
 	float: right;
-	margin : 12% 0 0 8%;
+	margin : 11% 0 0 8%;
 }
 
 .nav_top a {
@@ -70,6 +70,15 @@ header {
 .banner{
 	padding : 3% 5% 0 5%;
 	width : 90%;
+}
+
+h1 a{
+	text-decoration : none;
+	color : black; 
+}
+
+h1 a:hover{
+	color : #d3d6a4;
 }
 
 .character_title {
