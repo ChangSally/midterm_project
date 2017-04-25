@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	min-height : 700px;
+	max-width : 1280px;
+}
+
+.clear{
+	clear : both;
+	margin : 0;
+}
+
+.clear:after{
+	content : "";
+	display : block;
+	clear : both;
+}
+
+.container {
+	max-width: 1280px;
+	max-height : 2495px;
+	position : relative;
+	margin : 0;
+}
+
+header {
+	width: 100%;
+	height: 135px;
+	background: black;
+}
+
+.title_area {
+	display: inline-block;
+	float: left;
+	margin : 2% 0 0 5%;
+	width : 30%;
+}
+
+.nav_top {
+  	display: inline-block;
+  	width : 60%;
+}
+
+.nav_top li {
+  list-style: none;
+	float: right;
+	margin : 12% 0 0 8%;
+}
+
+.nav_top a {
+	display: block;
+	color: white;
+	font-family: FootLight MT Light;
+  	font-size: 24px;
+	text-decoration: none;
+}
+
+.nav_top a:hover {
+  	color : yellow;
+}
+
+#main {
+  	background: white;
+}
+
+.banner_img {
+	width : 100%;
+	display : inline_block;
+}
+
+.banner{
+	padding : 3% 5% 0 5%;
+	width : 90%;
+}
+
+.character_title {
+  margin-left: 40%;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: FootLight MT Light;
+}
+
+.character_img {
+	margin : 3% 7% 0 8%;
+	display: inline-block;
+	width : 84%;
+}
+
+.insideout {
+  display: inline-block;
+  width: 100%;
+}
+
+.insideout_img {
+  display: inline-block;
+  width: 500px;
+  float:left;
+}
+
+.insideout_statement {
+  float: right;
+  margin-right: 50px;
+}
+
+.insideout_statement p{
+  font-size: 23px;
+  width: 385px;
+}
+
+.nemo {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.nemo_img {
+  display: inline-block;
+  width: 500px;
+  float: right;
+}
+
+.nemo_statement {
+  float: left;
+  margin-left: 50px;
+}
+
+.nemo_statement p{
+  font-size: 23px;
+  width: 385px;
+}
+
+.mu {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.mu_img {
+  display: inline-block;
+  width: 500px;
+  float:left;
+}
+
+.mu_statement {
+  float: right;
+  margin-right: 50px;
+}
+
+.mu_statement p{
+  font-size: 23px;
+  width: 385px;
+}
+
+.toystory {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.toystory_img {
+  display: inline-block;
+  width: 500px;
+  float: right;
+}
+
+.toystory_statement {
+  float: left;
+  margin-left: 50px;
+}
+
+.toystory_statement p{
+  font-size: 23px;
+  width: 385px;
+}
+
+footer {
+  	width: 100%;
+  	height : 80px;
+	margin: 3% 0 0 0;
+	background-color: #E8E8E8;
+}
+
+.footer_p p {
+	display: inline-block;
+	color: #838db0;
+	font-family: FootLight MT Light;
+  	font-size: 16px;
+  	line-height : 0px;
+  	padding : 2% 0 1% 8%;
+}
+
+.footer_btn {
+  	display: inline-block;
+  	float : right;
+  	padding : 2% 6% 1% 0;
+  	width : 18%;
+}
+
+.footer_icon{
+	margin : 0 0 0 10%;
+	width : 16%;
+}
+
+.footer_icon:hover{
+	opacity : 0.7;
+}
