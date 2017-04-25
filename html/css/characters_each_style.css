@@ -17,7 +17,7 @@ body {
 
 .container {
 	max-width: 1280px;
-	max-height : 2495px;
+	max-height : 1653px;
 	position : relative;
 	margin : 0;
 }
@@ -60,6 +60,48 @@ header {
 
 #main {
   	background: white;
+    width : 100%;
+}
+
+.characters {
+  padding : 3% 5% 0 5%;
+  width : 90%;
+  height: 600px;
+}
+
+.characters_title{
+  margin-left: 400px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.characters_img {
+  float: left;
+}
+
+.characters_statement {
+  float: left;
+  margin-left: 40px;
+}
+
+.characters_statement h1{
+  font-size: 45px;
+}
+
+.characters_statement p{
+  font-size: 20px;
+  width: 350px;
+}
+
+.characters_each {
+  display: inline-block;
+}
+
+.characters_each img {
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 100px;
 }
 
 footer {
