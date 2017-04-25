@@ -104,6 +104,16 @@ header {
   border-radius: 100px;
 }
 
+.round_btn{
+	cursor : pointer;
+	display : inline-block;
+}
+
+.characters_each img:hover{
+	opacity : 0.7;
+	width : 60%;
+}
+
 footer {
   	width: 100%;
   	height : 80px;

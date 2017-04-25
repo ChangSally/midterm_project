@@ -84,8 +84,9 @@ header {
   	display : inline-block;
   	float : left;
   	margin : 1% 0 0 5%;
-  	font-size: 36px;
+  	font-size: 32px;
 	font-weight: bold;
+	font-family: FootLight MT Light;
 	text-align : center;
 	text-decoration : no;
 }
@@ -106,19 +107,18 @@ a{
 }
 
 .disneyland{
-	margin : 28% 0 0 0;
+	margin : 28% 5% 0 5%;
 }
 
 .events_subtitle {
   font-size: 34px;
   font-weight: bold;
   font-family: FootLight MT Light;
-  margin : 0 0 3% 46%;
+  margin : 0 0 3% 44%;
 }
 
 .disneyland_img{
-	width : 90%;
-	margin-left : 5%;
+	width : 100%;
 }
 
 .exhibition{
@@ -201,6 +201,10 @@ a{
 	font-family : FootLight MT Light;
 }
 
+.sticker_frame a:hover{
+	color : #d3d6a4;
+}
+
 .sticker_img{
 	width : 100%;
 	display : inline-block;
@@ -216,6 +220,12 @@ p a{
 
 p a:hover{
 	color : black;
+}
+
+.hor_line{
+	border-top : 1px solid black;
+	width : 100%;
+	margin : 2% 0 0 0;
 }
 
 footer {
