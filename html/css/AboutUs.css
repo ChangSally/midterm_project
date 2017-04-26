@@ -1,4 +1,10 @@
-﻿body{
+html{
+	margin : 0 auto;
+	max-width: 1280px;
+	display: block;
+}
+
+body{
 	max-width: 1280px;
 	margin: 0;
 	
@@ -31,18 +37,18 @@ header {
 	display: inline-block;
 	float: left;
 	margin : 2% 0 0 5%;
-	width : 30%;
+	width : 20%;
 }
 
 .nav_top {
   	display: inline-block;
-  	width : 60%;
+  	width : 70%;
 }
 
 .nav_top li {
   	list-style: none;
 	float: right;
-	margin : 12% 0 0 8%;
+	margin : 11% 0 0 8%;
 }
 
 .nav_top a {
@@ -55,6 +61,7 @@ header {
 
 .nav_top a:hover {
   	color : yellow;
+  	text-decoration: none;
 }
 
 .page{

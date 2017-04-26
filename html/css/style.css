@@ -1,11 +1,14 @@
 html{
 	margin : 0 auto;
+	max-width: 1280px;
+	display: block;
 }
 
 body {
-	margin: auto;
+	margin: 0 auto;
 	min-height : 700px;
 	max-width : 1280px;
+	display: block;
 }
 
 .clear{
@@ -24,6 +27,7 @@ body {
 	max-height : 1653px;
 	position : relative;
 	margin : 0 auto;
+	display: block;
 }
 
 header {
@@ -47,7 +51,7 @@ header {
 .nav_top li {
   	list-style: none;
 	float: right;
-	margin : 11% 0 0 8%;
+	margin : 10.6% 0 0 8%;
 }
 
 .nav_top a {
