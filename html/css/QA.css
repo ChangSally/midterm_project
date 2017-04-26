@@ -1,4 +1,4 @@
-﻿body{
+body{
 	max-width: 1280px;
 	min-height: 800px;
 	margin: 0;
@@ -69,95 +69,46 @@ header {
 	text-align: center;
 }
 
-/*.page p{
-}*/
-
-.questionOne{
-	margin: 0 0 0 5%;
+.questionOne, .questionTwo, .questionThree, .questionFour{
+	margin: 0 5% 2% 9%;
+	border : 1px solid black;
+	width : 80%;
+	border-radius : 6px;
+	padding-left : 2%;
+	background-color : black;
+	cursor : pointer;
 }
 
-.questionOne p{
+.questionOne:hover, .questionTwo:hover, .questionThree:hover, .questionFour:hover{
+	opacity : 0.7;
+}
+
+.questionOne p,.questionTwo p,.questionThree p,.questionFour p{
 	font-size: 20px;
 	font-family: 微軟正黑體;
 	text-align: left;
-	line-height:16px;
+	line-height: 24px;
+	maigin-bottom : 2%;
+	color : white;
 }
 
-.answerOne{
+.answerOne,.answerTwo,.answerThree,.answerFour{
 	display: none;
-	margin: 0 0 2% 5%;
+	margin: -1% 5% 2% 9%;
+	padding-left : 4%;
+	padding-right : 4%;
+	border-left : 1px dashed black;
+	border-right : 1px dashed black;
+	border-bottom : 1px dashed black;
+	width : 74%;
+	border-radius : 4px;
 }
 
-.answerOne p{
-	font-size: 20px;
+.answerOne p,.answerTwo p,.answerThree p,.answerFour p{
+	font-size: 18px;
 	font-family: 微軟正黑體;
 	text-align: left;
-}
-
-.questionTwo{
-	margin: 0 0 0 5%;
-}
-
-.questionTwo p{
-	font-size: 20px;
-	font-family: 微軟正黑體;
-	text-align: left;
-	line-height:16px;
-}
-
-.answerTwo{
-	display: none;
-	margin: 0 0 2% 5%;
-}
-
-.answerTwo p{
-	font-size: 20px;
-	font-family: 微軟正黑體;
-	text-align: left;
-}
-
-.questionThree{
-	margin: 0 0 0 5%;
-}
-
-.questionThree p{
-	font-size: 20px;
-	font-family: 微軟正黑體;
-	text-align: left;
-	line-height:16px;
-}
-
-.answerThree{
-	display: none;
-	margin: 0 0 2% 5%;
-}
-
-.answerThree p{
-	font-size: 20px;
-	font-family: 微軟正黑體;
-	text-align: left;
-}
-
-.questionFour{
-	margin: 0 0 0 5%;
-}
-
-.questionFour p{
-	font-size: 20px;
-	font-family: 微軟正黑體;
-	text-align: left;
-	line-height:16px;
-}
-
-.answerFour{
-	display: none;
-	margin: 0 0 2% 5%;
-}
-
-.answerFour p{
-	font-size: 20px;
-	font-family: 微軟正黑體;
-	text-align: left;
+	line-height : 34px;
 }
 
 footer {
