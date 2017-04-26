@@ -1,5 +1,9 @@
+html{
+	margin : 0 auto;
+}
+
 body {
-	margin: 0;
+	margin: auto;
 	min-height : 700px;
 	max-width : 1280px;
 }
@@ -19,7 +23,7 @@ body {
 	max-width: 1280px;
 	max-height : 1653px;
 	position : relative;
-	margin : 0;
+	margin : 0 auto;
 }
 
 header {
